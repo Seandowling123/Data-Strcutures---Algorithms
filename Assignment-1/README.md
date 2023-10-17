@@ -1,3 +1,3 @@
-# ASSIGNMENT 1
+### ASSIGNMENT 1
 
-Store a retrive a list of names from a hash table.
+Store and retrive a list of names from a hash table.
