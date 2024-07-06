@@ -3,21 +3,6 @@
 #include<stdlib.h>
 #include <string.h> //for strcpy and strcmp
 #include <ctype.h>  //for isalnum
-
-// NB: this skeleton is here to help you - ignore anything that does not help you
-// There are a lot of others (and better!) ways of doing this
-
-// note this sekeleton uses a global variable. It therefore will only work with 
-// one hashtable, of the size set. In general global variables should be avoided
-// as their global scope makes it very challenging to see where they are updated 
-// (as it can be anywhere!), and don't work well when several threads/programs
-// update them at the same time (concurency), amongst others problems.
-// Having said that, they can make coding a bit easier, so that's why we are using 
-// one here. If you can, try using a hashTable as a variable, passing it as a 
-// parameter to functions!
-
-
-
 #define MAX_STRING_SIZE 20 //max length of a string
 #define ARRAY_SIZE 59  //best be prime
 
